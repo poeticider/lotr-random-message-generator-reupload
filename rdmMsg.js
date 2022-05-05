@@ -36,8 +36,17 @@ const rdmLotrmsg = {
 };
 
 const lotrRandomMessage = rdmLotrmsg.generateRdmMsg();
-console.log(lotrRandomMessage);
+//console.log(lotrRandomMessage);
 
+
+let btn = document.createElement("button");
+btn.innerHTML = "Random LOTR message";
+btn.onclick = function () {
+    alert(lotrRandomMessage);
+}; 
+
+
+document.body.appendChild(btn);
 
 
 

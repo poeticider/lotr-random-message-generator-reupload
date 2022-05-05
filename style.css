@@ -1,0 +1,9 @@
+body {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#msgButton {
+    background-color: orange;
+    color: white;
+}
